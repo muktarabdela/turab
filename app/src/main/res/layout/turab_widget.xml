@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="14dp"
+    android:background="#151B29">
+    <ImageView
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:src="@drawable/turab_bear"
+        android:contentDescription="Turab bear mascot"
+        android:scaleType="fitCenter"/>
+    <TextView
+        android:id="@+id/widget_streak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="START YOUR JOURNEY"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/widget_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="One day at a time."
+        android:textColor="#E9BD69"
+        android:textSize="13sp"
+        android:gravity="center"
+        android:paddingTop="5dp"/>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#151B29">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:gravity="center_horizontal" android:padding="24dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="TURAB" android:textColor="#E9BD69" android:textSize="28sp" android:textStyle="bold"/>
+        <ImageView android:layout_width="220dp" android:layout_height="220dp"
+            android:src="@drawable/turab_bear" android:contentDescription="Turab mascot" android:scaleType="fitCenter"/>
+        <TextView android:id="@+id/streak" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Your journey hasn't started" android:textColor="#FFFFFF" android:textSize="23sp" android:textStyle="bold"/>
+        <TextView android:id="@+id/message" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Every journey starts somewhere." android:textColor="#E9BD69" android:textSize="16sp"
+            android:gravity="center" android:padding="12dp"/>
+        <Button android:id="@+id/start" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Start Journey"/>
+        <Button android:id="@+id/reset" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Report a setback"/>
+        <TextView android:id="@+id/record" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Longest streak: 0 days" android:textColor="#FFFFFF" android:textSize="15sp" android:padding="16dp"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Private by design. Your progress is stored on this device." android:textColor="#AAB2C0"
+            android:textSize="12sp" android:gravity="center" android:paddingTop="12dp"/>
+    </LinearLayout>
+</ScrollView>
